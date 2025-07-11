@@ -11,9 +11,9 @@
     "build": "tsc && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "server": "node server.js",
+    "server": "node server.cjs",
     "dev:all": "concurrently \"npm run dev\" \"npm run server\"",
-    "start": "node server.js"
+    "start": "node server.cjs"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.28.4",
