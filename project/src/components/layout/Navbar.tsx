@@ -41,7 +41,7 @@ const Navbar: React.FC<NavbarProps> = ({ onMenuClick }) => {
                 <line x1="10" y1="1" x2="10" y2="4"></line>
                 <line x1="14" y1="1" x2="14" y2="4"></line>
               </svg>
-              <span className="ml-2 text-xl font-bold text-foreground hidden sm:block">StockSense</span>
+              <span className="ml-2 text-xl font-bold text-foreground hidden sm:block">AddySense</span>
             </Link>
           </div>
           

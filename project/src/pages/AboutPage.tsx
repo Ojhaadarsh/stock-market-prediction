@@ -222,7 +222,7 @@ const AboutPage: React.FC = () => {
         </p>
         <div className="flex justify-center space-x-4">
           <a
-            href="https://github.com"
+            href="https://github.com/Ojhaadarsh/Stock_Price_Predicition/tree/main"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-outline flex items-center"
@@ -231,13 +231,13 @@ const AboutPage: React.FC = () => {
             View Source
           </a>
           <a
-            href="https://stackblitz.com"
+            href="https://www.linkedin.com/in/adarsh-ojha-22365b28a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary flex items-center"
           >
             <ExternalLink className="h-4 w-4 mr-2" />
-            Back to StackBlitz
+            Made By Addy
           </a>
         </div>
       </motion.div>

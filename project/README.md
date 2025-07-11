@@ -34,22 +34,24 @@ A real-time stock market tracking and prediction application built with React, T
 npm run build
 ```
 
-## Deployment on Render
+## Deploying to Render
 
-1. Create a new Web Service on Render
-2. Connect your GitHub repository
-3. Configure the following settings:
-   - **Name**: Your app name
-   - **Environment**: Node
-   - **Build Command**: `npm install && npm run build`
-   - **Start Command**: `npm start`
-   - **Node Version**: 18.x (or higher)
+1. **Push your code to GitHub.**
+2. **Create a new Web Service on [Render](https://render.com/):**
+   - Connect your GitHub repository.
+   - Set the **Root Directory** to `project` (if your code is in the `project/` subfolder).
+   - **Build Command:** `npm install && npm run build`
+   - **Start Command:** `npm start`
+   - **Node Version:** 18.x or higher
+3. **Add Environment Variables:**
+   - `PORT=3000`
+   - `NODE_ENV=production`
+   - `VITE_API_URL=http://localhost:3001` (or your backend URL)
+4. **(Optional) Deploy the backend (server/index.js) as a separate service** if you want real-time mock API and Socket.io features. Set its `PORT` (e.g., 3001) and update `VITE_API_URL` accordingly.
+5. **Click "Create Web Service".**
+6. **Visit your Render app URL to verify deployment.**
 
-4. Add the following environment variables:
-   - `PORT`: 3000
-   - `NODE_ENV`: production
-
-5. Click "Create Web Service"
+> See `.env.example` for required environment variables.
 
 ## Environment Variables
 
